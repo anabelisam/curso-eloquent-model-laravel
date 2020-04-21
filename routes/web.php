@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 Route::get('getAllProjects', 'ProjectController@getAllProjects');
 Route::get('insertNewProject', 'ProjectController@insertProject');
+Route::get('updateProject', 'ProjectController@updateProject');
