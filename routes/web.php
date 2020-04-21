@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('getAllProjects', 'ProjectController@getAllProjects');
+Route::get('insertNewProject', 'ProjectController@insertProject');
