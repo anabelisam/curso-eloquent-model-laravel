@@ -29,4 +29,9 @@ class ProjectController
 
     return "Actualizado";
   }
+
+  public function deleteProject() {
+    $project = Project::where('project_id', '>', 15)->delete();
+    return "Registros eliminados";
+  }
 }
