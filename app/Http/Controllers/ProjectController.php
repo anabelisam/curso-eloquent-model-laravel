@@ -21,4 +21,12 @@ class ProjectController
 
     return "Guardado";
   }
+
+  public function updateProject() {
+    $project = Project::find(1);
+    $project->name = 'Proyecto de tecnología';
+    $project->save();
+
+    return "Actualizado";
+  }
 }
