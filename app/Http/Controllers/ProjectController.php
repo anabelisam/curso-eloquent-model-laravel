@@ -23,7 +23,7 @@ class ProjectController
   }
 
   public function updateProject() {
-    $project = Project::find(1);
+    $project = Project::find(2);
     $project->name = 'Proyecto de tecnología';
     $project->save();
 
